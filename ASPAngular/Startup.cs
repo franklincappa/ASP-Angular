@@ -25,6 +25,7 @@ namespace ASPAngular
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/dist";
+                //configuración en una clase
             });
         }
 
